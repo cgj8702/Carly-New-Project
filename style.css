@@ -24,8 +24,6 @@ body {
 	margin: 0 auto;
 	margin-top: 40vh;
 	text-align: center;
-	overflow-y: scroll;
-	scroll-behavior: smooth;
 }
 
 /*
