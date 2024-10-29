@@ -5,34 +5,120 @@
 }
 
 html {
+	overflow-x: hidden;
+	overflow-y: auto;
 	height: 100vh;
 	width: 100vw;
 	font-size: 16px;
-}
-
-body {
 	background-color: mistyrose;
 }
 
-#box {
-	height: auto;
-	width: 90vw;
-	background-color: white;
-	border-radius: 10px;
-	border: 2px solid deeppink;
-	padding: 1vw;
-	margin: 0 auto;
-	margin-top: 40vh;
+
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: mistyrose;
+	font-family: Tahoma,
+		Verdana,
+		sans-serif;
+	height: 100%;
+}
+
+body #wrapper {
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#wrapper #div-header {
+	background-color: lightpink;
 	text-align: center;
 }
 
-/*
-mark {
+#wrapper #div-header h1 {
+	background-color: lightsalmon;
+	padding-top: 3px;
+}
+
+#wrapper #div-header nav {
+	background-color: lightgoldenrodyellow;
+}
+
+#wrapper #div-content main h2 {
+	background-color: lightblue;
+}
+
+#wrapper #div-content main h3 {
+	background-color: lightgreen;
+}
+
+#wrapper #div-content main p {
+	background-color: lightsteelblue;
+}
+
+#wrapper #div-footer footer {
+	background-color: lavender;
+}
+
+#wrapper #div-content mark {
+	background: pink;
+}
+
+
+#div-header header {
+	padding-top: 1px;
+	height: 110px;
+}
+
+#div-header header h1 {
+	padding-top: 1px;
+	padding-left: 5px;
+	height: 50px;
+}
+
+#div-header nav {
+	height: 33px;
+}
+
+#div-header nav>a {
+	background: #fff;
+	border: 1px solid deeppink;
+	border-radius: 20px;
+	display: inline-block;
+	margin: 5px 8px;
+	padding-top: 1px;
+	padding-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+}
+
+
+a {
+	color: deeppink;
+	text-decoration: none;
+
+}
+
+#div-content main {
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0px;
+	text-indent: 10px;
+}
+
+#div-footer footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/* mark {
 	background: pink;
 	border-radius: 7px;
 	border: 1px solid black;
 	padding-left: 5px;
 	padding-right: 5px;
 	width: 40px;
-	color: #fff;
-} */
+	color: #fff; } */
