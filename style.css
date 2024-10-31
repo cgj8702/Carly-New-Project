@@ -24,66 +24,36 @@ body {
 	height: 100%;
 }
 
-body #wrapper {
+#wrapper {
 	overflow-x: hidden;
 	overflow-y: auto;
 	padding-right: 20px;
 	padding-left: 20px;
 }
 
-#wrapper #div-header {
-	background-color: lightpink;
+#div-header {
+	margin-top: 10px;
 	text-align: center;
 }
 
-#wrapper #div-header h1 {
+#div-header h1 {
 	background-color: lightsalmon;
 	padding-top: 3px;
-}
-
-#wrapper #div-header nav {
-	background-color: lightgoldenrodyellow;
-}
-
-#wrapper #div-content main h2 {
-	background-color: lightblue;
-}
-
-#wrapper #div-content main h3 {
-	background-color: lightgreen;
-}
-
-#wrapper #div-content main p {
-	background-color: lightsteelblue;
-}
-
-#wrapper #div-footer footer {
-	background-color: lavender;
-}
-
-#wrapper #div-content mark {
-	background: pink;
-}
-
-
-#div-header header {
-	padding-top: 1px;
-	height: 110px;
-}
-
-#div-header header h1 {
-	padding-top: 1px;
-	padding-left: 5px;
-	height: 50px;
+	padding-bottom: 6px;
 }
 
 #div-header nav {
-	height: 33px;
+	background-color: lemonchiffon;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 15px;
 }
 
-#div-header nav>a {
+#div-header nav a {
 	background: #fff;
+	color: deeppink;
 	border: 1px solid deeppink;
+	text-decoration: none;
 	border-radius: 20px;
 	display: inline-block;
 	margin: 5px 8px;
@@ -91,13 +61,6 @@ body #wrapper {
 	padding-right: 5px;
 	padding-bottom: 1px;
 	padding-left: 5px;
-}
-
-
-a {
-	color: deeppink;
-	text-decoration: none;
-
 }
 
 #div-content main {
@@ -108,10 +71,39 @@ a {
 	text-indent: 10px;
 }
 
+#div-content main h2 {
+	background-color: lightblue;
+}
+
+#div-content main h3 {
+	background-color: lightgreen;
+}
+
+#div-content main p {
+	background-color: cornflowerblue;
+}
+
+#div-content mark {
+	background: pink;
+}
+
+#div-content main a {
+	color: white;
+
+}
+
 #div-footer footer {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	background-color: lavender;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
+}
+
+#div-footer footer a {
+	background-color: white;
+	color: deeppink;
+	border: 9px solid white;
+	border-radius: 20px;
 }
 
 /* mark {
